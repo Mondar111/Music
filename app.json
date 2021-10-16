@@ -1,9 +1,9 @@
 {
-    "name": "Veez Music Bot",
-    "logo": "https://telegra.ph/file/9dd9b20abcda2d7bb6725.png",
-    "description": "veez music allow you to stream music trought the telegram voice chat feature.",
+    "name": "mon Music Bot",
+    "logo": "https://telegra.ph/file/70a9f9cd0e3dcf20f5f68.jpg",
+    "description": "mon music allow you to stream music trought the telegram voice chat feature.",
     "keywords": ["music", "voice chat", "telegram"],
-    "repository": "https://github.com/levina-lab/veezmusic",
+    "repository": "https://github.com/mondar111/music",
     "stack": "container",
     "env": {
         "SESSION_NAME": {
@@ -37,27 +37,27 @@
         "BOT_USERNAME": {
             "description": "fill with your bot username without @",
             "required": true,
-            "value": "veezmusicbot"
+            "value": "musicmon_bot"
         },
         "ASSISTANT_NAME": {
             "description": "fill with the assistant username without @",
             "required": true,
-            "value": "veezasisstant"
+            "value": "monkar"
         },
         "BG_IMAGE": {
             "description": "fill with your costum background image link",
             "required": false,
-            "value": "https://telegra.ph/file/20147c4f049e2c1f2f248.png"
+            "value": "https://telegra.ph/file/280ad48194ac018699ca2.png"
         },
         "OWNER_NAME": {
             "description": "fill with your username without @",
             "required": false,
-            "value": "dlwrml"
+            "value": "monajedah"
         },
         "ALIVE_NAME": {
             "description": "fill with the nickname of your telegram account",
             "required": false,
-            "value": "Levina"
+            "value": "mondar111"
         },
         "API_ID": {
             "description": "your Api ID from my.telegram.org/apps",
@@ -74,17 +74,17 @@
         "DURATION_LIMIT": {
             "description": "max duration for music to download (in minutes).",
             "required": true,
-            "value": "40"
+            "value": "400"
         },
         "UPDATES_CHANNEL": {
             "description": "if you have channel fill the channel username here without @",
             "required": false,
-            "value": "levinachannel"
+            "value": "familynvn"
         },
         "GROUP_SUPPORT": {
             "description": "if you have group fill the group username here without @",
             "required": false,
-            "value": "VeezSupportGroup"
+            "value": "siniajaloh"
         }
     },
     "buildpacks": [
