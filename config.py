@@ -13,22 +13,22 @@ que = {}
 admins = {}
 SESSION_NAME = getenv("SESSION_NAME", "session")
 BOT_TOKEN = getenv("BOT_TOKEN")
-BOT_NAME = getenv("BOT_NAME", "Veez Music")
-BG_IMAGE = getenv("BG_IMAGE", "https://telegra.ph/file/20147c4f049e2c1f2f248.png")
-THUMB_IMG = getenv("THUMB_IMG", "https://telegra.ph/file/4c39fbb88932761913fff.png")
-AUD_IMG = getenv("AUD_IMG", "https://telegra.ph/file/73e10ed6e2bd32b478de6.png")
-QUE_IMG = getenv("QUE_IMG", "https://telegra.ph/file/b95c13eef1ebd14dbb458.png")
-ALIVE_IMG = getenv("ALIVE_IMG", "https://telegra.ph/file/c83b000f004f01897fe18.png")
+BOT_NAME = getenv("BOT_NAME", "asistent mon")
+BG_IMAGE = getenv("BG_IMAGE", "https://telegra.ph/file/280ad48194ac018699ca2.png")
+THUMB_IMG = getenv("THUMB_IMG", "https://telegra.ph/file/70a9f9cd0e3dcf20f5f68.jpg")
+AUD_IMG = getenv("AUD_IMG", "https://telegra.ph/file/844a9d79b78c35f129a0e.jpg")
+QUE_IMG = getenv("QUE_IMG", "https://telegra.ph/file/fe4c1aa15fcb201c9b4fa.jpg")
+ALIVE_IMG = getenv("ALIVE_IMG", "https://telegra.ph/file/70a9f9cd0e3dcf20f5f68.jpg")
 API_ID = int(getenv("API_ID"))
 API_HASH = getenv("API_HASH")
-BOT_USERNAME = getenv("BOT_USERNAME", "veezmusicbot")
-ASSISTANT_NAME = getenv("ASSISTANT_NAME", "veezassistant")
-GROUP_SUPPORT = getenv("GROUP_SUPPORT", "VeezSupportGroup")
-UPDATES_CHANNEL = getenv("UPDATES_CHANNEL", "levinachannel")
+BOT_USERNAME = getenv("BOT_USERNAME", "musicmon_bot")
+ASSISTANT_NAME = getenv("ASSISTANT_NAME", "asistent mon")
+GROUP_SUPPORT = getenv("GROUP_SUPPORT", "siniajaloh")
+UPDATES_CHANNEL = getenv("UPDATES_CHANNEL", "familynvn")
 # isi dengan username kamu tanpa simbol @
-OWNER_NAME = getenv("OWNER_NAME", "dlwrml")
+OWNER_NAME = getenv("OWNER_NAME", "monajedah")
 # fill with your nickname
-ALIVE_NAME = getenv("ALIVE_NAME", "Levina")
+ALIVE_NAME = getenv("ALIVE_NAME", "mondar111")
 # fill with your id as the owner of the bot
 OWNER_ID = int(os.environ.get("OWNER_ID"))
 DATABASE_URL = os.environ.get("DATABASE_URL")  # fill with your mongodb url
@@ -44,6 +44,6 @@ U_BRANCH = "main"
 HEROKU_APP_NAME = os.environ.get("HEROKU_APP_NAME", None)
 HEROKU_API_KEY = os.environ.get("HEROKU_API_KEY", None)
 UPSTREAM_REPO = os.environ.get(
-    "UPSTREAM_REPO", "https://github.com/levina-lab/VeezMusic"
+    "UPSTREAM_REPO", "https://github.com/mondar111/Music"
 )
 HEROKU_URL = fetch_heroku_git_url(HEROKU_API_KEY, HEROKU_APP_NAME)
